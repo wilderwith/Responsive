@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the precious!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+            <div class="topnav">
+                <a class="active" href="#home">FindThePrecious.com</a>
+                <a href="#news">Fellows</a>
+                <a href="#contact">Contact us</a>
+            </div>
+            <div class="flex-container">
+                <div class="carousel" style="background-color: grey; display: block;">
+                </div>
+                <div>
+                    <h1>Fellows wanted dead (or alive if you want to eat them later)</h1>
+                </div>
+            </div>
+
+    <div id="articles"style="display:flex;flex-direction:row;justify-content:space-between;">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <h2 style="text-align-last: center;";>Contact us</h2>
+
+            <div id="form-main">
+                <div id="form-div">
+                    <form class="form" id="form1">
+            
+                        <p class="name">
+                            <input name="name" type="text"
+                                class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Your email"
+                                id="name" />
+                        </p>
+            
+                        <p class="email">
+                            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email"
+                                placeholder="Your address" />
+                        </p>
+                        <select style="width:100%;">
+                            <option value="I have seen one of them">I have seen one of them</option>
+                            <option value="I have seen one of them">I have seen one of them</option>
+                            <option value="I have seen one of them">I have seen one of them</option>
+                            <option value="I have seen one of them">I have seen one of them</option>
+                        </select>
+                        <p class="text">
+                            <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment"
+                                placeholder="Your message"></textarea>
+                        </p>
+            
+            
+                        <div class="submit">
+                            <input type="submit" value="SEND" id="button-blue" />
+                            <div class="ease"></div>
+                        </div>
+                    </form>
+                </div>
+</body>
+
+
+</html>
